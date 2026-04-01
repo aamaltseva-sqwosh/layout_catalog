@@ -1,6 +1,5 @@
-
 .header {
-  height: $header-heigh;
+  height: $header-height;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,7 +17,7 @@
   display: flex;
   align-items: center;
   list-style: none;
-  line-height: 60px;
+  line-height: $header-height;
   margin: 0;
   padding: 0;
 
@@ -33,7 +32,7 @@
     align-items: center;
     justify-content: center;
     font-size: $font-size-md;
-    height: $header-heigh;
+    height: $header-height;
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
@@ -41,7 +40,7 @@
     transition: color 0.3s;
 
     &:hover {
-      color:$color-primary
+      color: $color-primary;
     }
   }
   &__link.is-active {
@@ -57,7 +56,7 @@
       width: 100%;
       height: 4px;
       border-radius: 2px;
-      background: $color-primary
+      background: $color-primary;
     }
   }
 }
